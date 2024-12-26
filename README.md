@@ -6,7 +6,7 @@ Apa itu aplikasi FaceRecognition_app?
 Aplikasi FaceRecognition_app adalah sebuah aplikasi Machine Learning yang dapat mengidentifikasi wajah manusia. Dengan 2 jenis deteksi yaitu deteksi dengan scan dan deteksi dengan real time, aplikasi FaceRecognition_app menjamin keakuratan sebesar 96% dapat mengenali wajah anda. Dengan fitur add dataset dan train dataset otomatis, anda tidak perlu kesulitan untuk menambahkan wajah anda ke dalam system secara manual. Hanya dengan klik 1 kali dan system akan memotret anda dan melatih potret yang telah sistem dapatkan secara otomatis. 
 
 Cara Installasi Aplikasi
-1.	Download file FaceRecognition_app pada di link ini "https://drive.google.com/drive/folders/1KK0YEuK5zsIP5l-DT8BO7ywma0krLHFC?usp=drive_link"
+1.	Download file FaceRecognition_app pada link ini "https://drive.google.com/drive/folders/1KK0YEuK5zsIP5l-DT8BO7ywma0krLHFC?usp=drive_link"
 2.	Buka file FaceRecognition_app
 3.	Sesuaikan lokasi applikasi sesuai dengan lokasi yang anda inginkan.
 4.	Klik Next
