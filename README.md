@@ -26,31 +26,38 @@ Dokumentasi
  ![image](https://github.com/user-attachments/assets/6c40b00f-4cd0-4c6e-a2a3-75ffbd91b451)
 
   Masukkan ‘admin’ untuk masuk ke halaman admin dan ‘user’ untuk masuk ke halaman user.
-3.	Halaman Admin
+  
+2.	Halaman Admin.
  ![image](https://github.com/user-attachments/assets/dca0d72b-396c-412e-a58f-86aa287ea088)
 
   Klik train data jika ingin menambahkan dataset dan melatih dataset.
+  
 3.	Train Data
  ![image](https://github.com/user-attachments/assets/3c46f93f-d34d-4c44-90a0-d1deb215d4ef)
 
   Masukkan Nama anak anda dan siapa anda. Contoh : “Mama Axel”.
-4.	Memasukkan Dataset
+  
+4.	Memasukkan Dataset.
  ![image](https://github.com/user-attachments/assets/eeae17fd-3964-4fc9-9286-a22652e4e791)
 
   Sistem akan mengambil 15 gambar secara otomatis. anda bisa bergeleng ke kanan dan kiri secara perlahan sampai kamera menutup dengan otomatis.
-5.	Train Data
+  
+5.	Train Data.
  ![image](https://github.com/user-attachments/assets/63b99bd9-ace9-4486-8f43-734fc3a6060b)
 
   Pada sistem “add new dataset”, sebenarnya sudah dapat melatih model secara otomatis, akan tetapi jika anda ingin memastikan bahwa semua data sudah terlatih anda bisa klik “Train model” untuk melatih dataset secara manual.
-6.	Halaman User
+  
+6.	Halaman User.
  ![image](https://github.com/user-attachments/assets/d9671b66-333b-40c4-b7b1-d85c1c9b0a7d)
 
   Ada 2 sistem yang dapat beroperasi. Deteksi dengan csan gambar, dan juga deteksi dengan realtime dengan kamera.
-7.	Deteksi Scan
+  
+7.	Deteksi Scan.
  ![image](https://github.com/user-attachments/assets/fde2d403-1923-4764-9f3b-14362f61fe9d)
 
   Klik Start dan tunggu sampai kamera mengambil foto anda dengan otomatis.
-8. Deteksi Realtime
+  
+8. Deteksi Realtime.
  ![image](https://github.com/user-attachments/assets/1c3aa91f-5d91-4327-9d6f-f3260cf4a8be)
 
   Klik ‘q’ untuk menutup halaman.
