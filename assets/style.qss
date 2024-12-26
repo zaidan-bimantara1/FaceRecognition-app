@@ -1,0 +1,13 @@
+#scanner {
+    background-color: transparent;
+    border: 2px solid red;
+    position: absolute;
+}
+
+#scanLine {
+    background-color: red;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    animation: scan 2s infinite alternate;
+}

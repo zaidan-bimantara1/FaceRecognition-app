@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+                <li><a href="{{ url_for('admin_home') }}">Admin Home</a></li>
+                <li><a href="{{ url_for('user_home') }}">User Home</a></li>
+                <li><a href="{{ url_for('login') }}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="admin-container">
+        <h1>Welcome Admin</h1>
+        <a href="{{ url_for('train_data_action') }}">Train Data</a>
+        <a href="{{ url_for('user_home') }}">Face Recognition</a>
+        <p style="color: rgb(252, 248, 248);">Create by id instagram @anszaidanb2</p>
+    </div>
+
+</body>
+</html>

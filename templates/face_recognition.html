@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="{{ url_for('login') }}">Login</a></li>
+            <li><a href="{{ url_for('user_home') }}">User Home</a></li>
+            <li><a href="{{ url_for('login') }}">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="recognition-container">
+    <h1>Face Recognition Page</h1>
+    <p>Click the button below to start the Face Recognition Page.</p><br>
+    <a href="/run_face_recognition">
+    <button onclick="startFaceRecognition()">Start Face Scan Page</button>
+    </a>
+    <a href="/real_time">
+    <button onclick="startFaceRecognition()">Start Real Time Recognition Page</button>
+    </a>
+
+    <p style="color: rgb(252, 248, 248);">Create by id instagram @anszaidanb2</p>
+</div>
+
+<!--<script>-->
+<!--    function startFaceRecognition() {-->
+<!--        fetch("/run_face_recognition")-->
+<!--            .then(response => {-->
+<!--                if (response.ok) {-->
+<!--                    alert("Face Recognition App is running!");-->
+<!--                } else {-->
+<!--                    alert("Failed to start Face Recognition.");-->
+<!--                }-->
+<!--            })-->
+<!--            .catch(error => {-->
+<!--                alert("An error occurred: " + error.message);-->
+<!--            });-->
+<!--    }-->
+<!--</script>-->
+
+
+</body>
